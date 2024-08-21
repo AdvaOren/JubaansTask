@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lweB862+M/TRUyM9q0iwFlOWkjB6Lix66RxJgpKNWkfAY1l/hbHw21pxQOmWX48J9cjZO5tyTqpUfgYvpxAXLQ==",
+  "dgSpecHash": "oaB0oExFgjI1vQ3kXEI/386jzp0z0V0ZiloPX6ztyzWX0Gzf2jNg2jURnv2/IQI5v2V21P3Z05pLgZUvru+XIQ==",
   "success": true,
-  "projectFilePath": "c:\\projects\\JubaansTask\\JubaansTask.csproj",
+  "projectFilePath": "C:\\projects\\JubaansTask\\JubaansTask.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Adva Oren\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\Adva Oren\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
