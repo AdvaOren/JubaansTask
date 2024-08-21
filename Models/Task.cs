@@ -1,10 +1,18 @@
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using System;
+using System.Text.Json.Serialization;
+
 
 namespace TaskManagementApi.Models
 {
-    public class Task
+    public enum TaskStatus
+    {
+        ToDo,
+        InProgress,
+        Done
+    }
+     public class Task
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
@@ -13,6 +21,9 @@ namespace TaskManagementApi.Models
         public string Title { get; set; }
         public string Description { get; set; }
         public DateTime DueDate { get; set; }
-        public bool IsCompleted { get; set; }
+
+        [BsonRepresentation(BsonType.String)]
+        [JsonConverter(typeof(JsonStringEnumConverter))]
+        public TaskStatus Status { get; set; }
     }
 }

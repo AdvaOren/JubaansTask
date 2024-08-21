@@ -29,6 +29,8 @@ namespace TaskManagementApi.Repositories
 
         public async System.Threading.Tasks.Task CreateTaskAsync(TaskModel task)
         {
+            Console.WriteLine($"Status: {task}");
+
             await _tasksCollection.InsertOneAsync(task);
         }
 
