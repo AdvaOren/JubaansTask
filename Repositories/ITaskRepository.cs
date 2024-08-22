@@ -4,6 +4,13 @@ using TaskModel = TaskManagementApi.Models.Task;
 
 namespace TaskManagementApi.Repositories
 {
+    /// <summary>
+    /// ITaskRepository Interface
+    /// 
+    /// This interface defines the contract for a task repository. It includes methods
+    /// for retrieving, creating, updating, and deleting tasks asynchronously. 
+    /// The repository operates on TaskModel objects, which represent tasks in the task management system.
+    /// </summary>
     public interface ITaskRepository
     {
         Task<IEnumerable<TaskModel>> GetTasksAsync();

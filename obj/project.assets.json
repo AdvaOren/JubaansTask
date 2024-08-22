@@ -976,11 +976,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\JubaansTask\\JubaansTask.csproj",
+      "projectUniqueName": "C:\\projects\\ToDoList\\JubaansTask.csproj",
       "projectName": "JubaansTask",
-      "projectPath": "C:\\projects\\JubaansTask\\JubaansTask.csproj",
+      "projectPath": "C:\\projects\\ToDoList\\JubaansTask.csproj",
       "packagesPath": "C:\\Users\\Adva Oren\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\JubaansTask\\obj\\",
+      "outputPath": "C:\\projects\\ToDoList\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
